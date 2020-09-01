@@ -58,8 +58,8 @@
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
 <script>
-window.addEventListener('keydown', function(e) {
- console.log(e.keyCode);
+function playSound(e) {
+//  console.log(e.keyCode);
  const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
  const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
 //  console.log(audio);
@@ -73,12 +73,12 @@ window.addEventListener('keydown', function(e) {
 //  console.log(key);
  //Adds the playing class to the variable key
  key.classList.add('playing');
-});
+}
 
 function removeTransition(e) {
     //If it is not transform, then don't remove.
     if(e.propertyName !== 'transform') return;
-    console.log(this);
+    // console.log(this);
     //This removes the playing class from the key that was pressed.
     this.classList.remove('playing');
 }
@@ -86,6 +86,8 @@ const keys = document.querySelectorAll('.key');
 //Because the variable keys is a nodelist and NOT an array. We must use forEach instead of a for loop. Loops are only for arrays.
 //The forEach method is adding an eventlistener, listening for transitioned on each key in the keys variable.
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+
+window.addEventListener('keydown', playSound);
 </script>
 
 
