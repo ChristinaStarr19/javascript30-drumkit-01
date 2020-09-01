@@ -73,9 +73,11 @@ window.addEventListener('keydown', function(e) {
  console.log(key);
  //Adds the playing class to the variable key
  key.classList.add('playing');
-
-
 });
+
+const keys = document.querySelectorAll('.key');
+//Because the variable keys is a nodelist and NOT an array. We must use forEach instead of a for loop. Loops are only for arrays.
+keys.forEach(key =>)
 </script>
 
 
