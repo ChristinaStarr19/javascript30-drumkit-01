@@ -61,11 +61,15 @@
 window.addEventListener('keydown', function(e) {
  console.log(e.keyCode);
  const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+ const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
  console.log(audio);
  //If any other keys besides those listed above are pressed, then the function will end.
  if(!audio) return;
+ //Allows the audio to restart at anytime, even if it's already playing.
+ audio.currentTime = 0; 
  //Plays the audio element
  audio.play();
+ console.log(key);
 
 
 });
