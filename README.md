@@ -1,4 +1,4 @@
-# Drum Kit, JavaScript30 Challenge Project #1
+# Drum Kit: JavaScript30 Challenge Project #1
 
 ## Table of Contents
 
@@ -14,9 +14,9 @@
 
 ## Usage
 
-The Drum Kit was created using javascript language to include event listeners, classLists, variables, functions and more.
+The Drum Kit was created using Javascript programming language to include key events, playing audio, classLists, animations, variables, functions and more.
 
-It is built using vanilla Javascript by following a tutorial from the Javascript30 series .
+It is built using vanilla Javascript by following a tutorial from the Javascript30 series.
 
 ![Deployed site for portfolio](screenshot.png)
 
@@ -26,11 +26,11 @@ https://christinastarr19.github.io/javascript30-drumkit-01/
 
 ## Credits
 
-This was a solo project completed as homework for the Georgia Tech, FullStack Flex program.
+This was a project created from a video tutorial from https://javascript30.com. 
 
 ## MIT_License
 
-Copyright (c) [2020][christina cunningham starr]
+Copyright (c) [2020][Christina Cunningham Starr]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
