@@ -14,7 +14,7 @@
 
 ## Usage
 
-This weather dashboard collects data from the Open Weather API and dynamically generates new information as the user updates their search city . The user's latest search saves to local storage and is populated when the page is refreshed. It was also designed to meet the criteria for GT Full-stack Flex program homework requirements.
+The Drum Kit was created using javascript language to include event listeners, classLists, variables, functions and more.
 
 It is built using vanilla Javascript by following a tutorial from the Javascript30 series .
 
